@@ -1,0 +1,19 @@
+@import "compass/reset";
+@import "partials/main";
+
+ul {
+  li {
+    display: inline;
+  }
+}
+
+#contact {
+  img {
+    float: left;
+    width: 500px;
+  }
+  #contact_details {
+    width: 500px;
+    float: left;
+  }
+}

@@ -1,0 +1,21 @@
+%h4 We're Open!
+
+%h5 Opening Hours
+8.30am - 6pm
+
+%h3#about About Us
+We're a new place
+
+%h3#upcoming Upcoming Events
+- @events.each do |event|
+  %li= link_to "#{event.start_at} #{event.name}", calendar_path
+
+%h3#contact Contact
+%h5 Where are We?
+=image_tag 'http://maps.google.com/maps/api/staticmap?center=53.295549,-3.728394&zoom=16&markers=size:small|color:purple|53.295549,-3.728394&path=color:0x0000FF80|weight:5|53.29553,-3.72808&size=500x400&sensor=false'
+%div#contact_details
+  Some Street,
+  A Town,
+  Country,
+  Postcode
+  %h5 Phone us

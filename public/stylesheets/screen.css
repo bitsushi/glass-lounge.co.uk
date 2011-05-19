@@ -1,0 +1,186 @@
+/* line 17, ../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 115, ../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 1, ../../app/stylesheets/partials/_main.scss */
+body {
+  font-family: Georgia, Verdana, Helvetica, Arial;
+  background: #CCC;
+}
+
+/* line 6, ../../app/stylesheets/partials/_main.scss */
+h1, h2, h3, h4, h5 {
+  font-family: Podkova;
+  font-size: 20px;
+}
+
+/* line 10, ../../app/stylesheets/partials/_main.scss */
+h3 {
+  font-size: 2em;
+}
+
+/* line 13, ../../app/stylesheets/partials/_main.scss */
+h1 {
+  font-size: 3em;
+}
+
+/* line 17, ../../app/stylesheets/partials/_main.scss */
+a {
+  color: blue;
+}
+
+/* line 19, ../../app/stylesheets/partials/_main.scss */
+a img {
+  border: none;
+}
+
+/* line 22, ../../app/stylesheets/partials/_main.scss */
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+
+/* line 27, ../../app/stylesheets/partials/_main.scss */
+#container {
+  margin: 0 auto;
+  background: #FFF;
+  padding: 20px 40px;
+  margin-top: 20px;
+}
+
+/* line 35, ../../app/stylesheets/partials/_main.scss */
+#flash_notice,
+#flash_error,
+#flash_alert {
+  padding: 5px 8px;
+  margin: 10px 0;
+}
+
+/* line 39, ../../app/stylesheets/partials/_main.scss */
+#flash_notice {
+  background-color: #ccffcc;
+  border: solid 1px #66cc66;
+}
+
+/* line 44, ../../app/stylesheets/partials/_main.scss */
+#flash_error,
+#flash_alert {
+  background-color: #ffcccc;
+  border: solid 1px #cc6666;
+}
+
+/* line 48, ../../app/stylesheets/partials/_main.scss */
+.fieldWithErrors {
+  display: inline;
+}
+
+/* line 51, ../../app/stylesheets/partials/_main.scss */
+.error_messages {
+  width: 400px;
+  border: 2px solid #cf0000;
+  padding: 0;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  font-size: 12px;
+}
+
+/* line 59, ../../app/stylesheets/partials/_main.scss */
+.error_messages h2 {
+  text-align: left;
+  padding: 5px 5px 5px 15px;
+  margin: 0;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: #cc0000;
+  color: white;
+}
+
+/* line 67, ../../app/stylesheets/partials/_main.scss */
+.error_messages p {
+  margin: 8px 10px;
+}
+
+/* line 69, ../../app/stylesheets/partials/_main.scss */
+.error_messages ul {
+  margin: 0;
+}
+
+/* line 5, ../../app/stylesheets/screen.scss */
+ul li {
+  display: inline;
+}
+
+/* line 11, ../../app/stylesheets/screen.scss */
+#contact img {
+  float: left;
+  width: 500px;
+}
+/* line 15, ../../app/stylesheets/screen.scss */
+#contact #contact_details {
+  width: 500px;
+  float: left;
+}
